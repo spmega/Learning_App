@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Learning Application</string>
+    <string name="app_desc">Learning Application is an application to learn ABC\'s and numbers. Please select a topic to learn.</string>
+</resources>

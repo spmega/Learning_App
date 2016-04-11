@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/letter"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="200dp"
+        />
+
+    <Button
+        android:id="@+id/prev_letter"
+        android:layout_below="@+id/letter"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPrevLetter"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/next_letter"
+        android:layout_below="@+id/letter"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNextLetter"
+        android:text="Next"
+        />
+
+    <include layout="@layout/merge_finish"/>
+</RelativeLayout>
